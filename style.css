@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.2);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.app-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #fff;
+  color: #333;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #eee;
+}
